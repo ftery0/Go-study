@@ -1,8 +1,7 @@
 package main
 
-import "fmt"
-
+import "./something"
 
 func main() {
-	fmt.Println("Hello world")
+	something.SayHello()
 }
