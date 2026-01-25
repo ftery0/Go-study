@@ -1,7 +1,9 @@
 package main
 
-import "./something"
+import "fmt"
 
 func main() {
-	something.SayHello()
+	name := "james"
+	name = "lynn"
+	fmt.Println(name)
 }
